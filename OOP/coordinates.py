@@ -13,7 +13,9 @@ class coordinate(object):
         return (x_diff_equ + y_diff_equ)**0.5
 
 c = coordinate(3,4)
+
 origin = coordinate(0,0)
+
 print(c.x, origin.x)
 print(c.distance(origin))
 print(coordinate.distance(c, origin))
